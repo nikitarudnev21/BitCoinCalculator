@@ -7,4 +7,4 @@ document.querySelector('.form').addEventListener('submit', e => {
     })
         .then(response => document.querySelector('.result').innerHTML = response.data.result)
         .catch((error) => console.error('Error:', error))
-})
+})//
